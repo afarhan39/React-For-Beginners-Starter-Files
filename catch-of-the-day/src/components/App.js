@@ -5,7 +5,7 @@ import Inventory from './Inventory'
 import Order from './Order'
 import SampleFishes from '../sample-fishes'
 import Fish from './Fish'
-import base from '../base'
+import base from '../walaobase'
 
 class App extends Component {
   state = {
