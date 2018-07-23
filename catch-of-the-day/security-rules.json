@@ -7,7 +7,7 @@
     "$room": {
       // only the store owner can edit the data
       ".write":
-        "auth != null && (!data.exists() || data.child('owner').val() === auth.uid)",
+        "auth != null && (!data.exists() || data.child('owner').val() === auth.email)",
       ".read": true
     }
   }
